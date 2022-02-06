@@ -17,7 +17,7 @@ from pytz import timezone
 from .aio_price import AioPrices
 from .events import async_track_time_change_in_tz
 
-DOMAIN = "nordpool"
+DOMAIN = "nordpool_intakt"
 _LOGGER = logging.getLogger(__name__)
 RANDOM_MINUTE = randint(0, 10)
 RANDOM_SECOND = randint(0, 59)
